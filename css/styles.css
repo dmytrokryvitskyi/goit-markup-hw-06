@@ -649,6 +649,48 @@ margin-right: 10px;
   fill: var(--white-color);
 }
 
+/* Підписуйтесь на розсилку */
+
+.footer-subscribe{
+  margin-left: auto;
+}
+
+.footer-subscribe-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--white-color);
+
+  margin-bottom: 20px;
+}
+.footer-subscribe-email{
+  min-width: 358px;
+  min-height: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  padding: 15px 16px;
+  margin-right: 12px;
+  background-color: rgba(47, 48, 58, 1);
+}
+
+.footer-subscribe-button {
+  display: inline-block;
+  background-color: var(--highlight-color);
+  color: var(--white-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  text-align: center;
+  border: 1px solid transparent;
+  border-radius: 6px;
+  cursor: pointer;
+  padding: 10px 32px;
+  width: 200px;
+  height: 50px;}
+
 /* Стилізація СТОРІНКИ ПОРТФОЛІО */
 .portfolio-title {
   color: var(--main-black);
