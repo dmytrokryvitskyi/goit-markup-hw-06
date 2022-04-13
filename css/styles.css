@@ -685,10 +685,17 @@ margin-right: 10px;
   transition: color var(--transition-origin);
 }
 
+.footer-subscribe-email::placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
 .footer-subscribe-email:hover,
 .footer-subscribe-email:focus{
   border-color: var(--highlight-color);
-  
 }
 
 .footer-subscribe-button {
@@ -934,7 +941,6 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   cursor: pointer;
   background-color: var(--white-color);
   border: 1px solid rgba(0, 0, 0, 0.1);
-    
 }
 
 .modal-button-close:hover,
@@ -967,7 +973,6 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   flex-direction: column;
   margin-bottom: 10px;
   width: 100%;
-  
 }
 
 .modal-label{
@@ -1093,9 +1098,7 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   color: var(--highlight-color);
 }
 
-/* CHEEECKBOX */
 .modal-button-submit {
-
   margin-right: auto;
   margin-left: auto;
 
@@ -1111,7 +1114,6 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 
   background-color: var(--highlight-color);
   color: var(--white-color);
-
 
   font-weight: 700;
   font-size: 16px;
